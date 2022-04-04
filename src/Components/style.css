@@ -1,6 +1,6 @@
 .home {
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   background-image: url("/src/assessts/images/stuff.jpg");
   background-color: #212121;
   display: flex;
@@ -46,7 +46,7 @@
 
 .about {
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -248,7 +248,7 @@ ul {
   background-color: #1b1b1b;
   color: #fff;
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   scroll-behavior: smooth;
   overflow: scroll;
   overflow-x: hidden;
@@ -259,7 +259,7 @@ ul {
 }
 
 .experince-wrapper {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   padding: 100px;
 }
@@ -391,14 +391,15 @@ a {
 }
 .resume {
   color: #fff;
-  width: 100%;
-  height: 10vh;
+  /* width: 100%; */
+  height: 60vh;
   min-height: 100px;
   background: #00909c;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  /* align-items: center;
-  align-self: center; */
+  align-items: center;
+  align-self: center;
   overflow: hidden;
   color: #f2f2f2;
   position: relative;
@@ -416,7 +417,7 @@ a {
   transform: scale(1.1);
 }
 .som {
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   padding: 100px;
   overflow: hidden;
@@ -467,7 +468,6 @@ a {
   right: 1rem;
   z-index: 2;
   box-shadow: 0 5px 5px 0 rgb(0 0 0 / 75%);
-
   position: absolute;
   bottom: 0;
 } */
