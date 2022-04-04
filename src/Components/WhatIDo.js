@@ -1,9 +1,10 @@
 import { Grid } from '@material-ui/core'
 import React from 'react'
+import bgimage from '../assessts/images/experiencebg.jpg'
 
 function WhatIDo() {
     return (
-        <section className='whatIdo'>
+        <section className='whatIdo' style={{ backgroundImage: `url(${bgimage})` }}>
 
             <header className='about-header '>What I Do</header>
             <span className='about-midline'></span>

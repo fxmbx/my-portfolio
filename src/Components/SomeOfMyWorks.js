@@ -14,7 +14,7 @@ import adventuretime2 from '../assessts/images/AdventuretimeMobe1.png'
 import Screenshots from './Screenshots'
 function SomeOfMyWorks() {
     return (
-        <section className='som'>
+        <section className='som' >
             <Grid container rowspacing={1} columnspacing={{ xs: 1, sm: 1, md: 2 }} className='somGrid'>
                 <Grid item xs={12} md={0}></Grid>
                 <Grid item xs={12} md={12} className='about-left'>
@@ -119,7 +119,7 @@ function SomeOfMyWorks() {
                             image1={adventuretime1}
                             // image2={mooncake2}
                             image3={adventuretime2}
-                        />adventuretime2
+                        />
                         <div className='som-desc'>
                             <div className='som-desc-header'>
                                 <h1 className='som-title'>Adventure Time 😆</h1>

@@ -2,10 +2,11 @@ import { Grid } from '@material-ui/core'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './style.css'
+import bgimage from '../assessts/images/stuff.jpg'
 function Home() {
     return (
 
-        <Grid container rowspacing={1} columnspacing={{ xs: 1, sm: 1, md: 1 }} className='home'>
+        <Grid container rowspacing={1} columnspacing={{ xs: 1, sm: 1, md: 1 }} className='home' style={{ backgroundImage: `url(${bgimage})` }}>
             <Grid item xs={12} md={12} style={{ display: 'flex', justifyContent: 'center' }}>
                 <div className='home-content'>
                     <p className='home-heading'>Olaore Oluwafunmibi</p>

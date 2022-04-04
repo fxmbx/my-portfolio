@@ -2,6 +2,8 @@ import { Grid } from '@material-ui/core'
 import React from 'react'
 import ExperienceBlock from './ExperienceBlock'
 import Rusume from './Rusume';
+import bgimage from '../assessts/images/experiencebg.jpg'
+
 
 function Experience() {
     function padTo2Digits(num) {
@@ -15,7 +17,7 @@ function Experience() {
         ].join('/');
     }
     return (
-        <div className='experience'>
+        <div className='experience' style={{ backgroundImage: `url(${bgimage})` }}>
             <div className='experince-wrapper'>
                 <div className='experience-heaer'>
 

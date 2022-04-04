@@ -1,9 +1,10 @@
 import { Grid } from '@material-ui/core'
 import React from 'react'
 import './style.css'
+// import bgimage from '../assessts/images'
 function About() {
     return (
-        <section className='about'>
+        <section className='about'  >
             <Grid container rowspacing={1} columnspacing={{ xs: 1, sm: 1, md: 2 }}>
                 <Grid item xs={12} md={1}></Grid>
                 <Grid item xs={12} md={7} className='about-left'>
