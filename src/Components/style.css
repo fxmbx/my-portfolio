@@ -1,0 +1,527 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/src/assessts/images/stuff.jpg");
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.home-heading {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.home-subheading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  /* justify-content: center; */
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.scroll-down-wrapper {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  color: #f2f2f2;
+}
+.chevron {
+  transform: rotate(90deg);
+  height: 20px;
+  display: block;
+  margin: 10px auto;
+}
+
+.about {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1b1b;
+}
+.about-wrapper {
+  padding: 1rem;
+  display: flex;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1.8rem;
+  /* width: 70%; */
+}
+.about-header {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.about-subheader {
+  font-size: 1.6rem;
+  text-align: justify;
+  justify-content: center;
+  color: #fff;
+
+  /* width: 60%; */
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+.about-midline {
+  display: block;
+  margin: 30px 0;
+  width: 100px;
+  height: 2px;
+  background-color: #00b7c7;
+}
+.about-content {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  /* width: 60%; */
+  color: #fff;
+}
+.about-right {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 30%;
+  /* padding: 50%; */
+}
+.about-headshot {
+  /* background-color: #fff; */
+  margin-top: 50%;
+
+  height: 100%;
+  width: 100%;
+  border-bottom: 50%;
+}
+.whatIdo {
+  overflow: hidden;
+  height: 100vh;
+  /* width: 100%; */
+  padding: 100px;
+  background-image: url("/src/assessts/images/stevennnnnnnn.webp");
+  background-color: #1b1b1b;
+}
+.whatIDoGrid {
+  justify-content: center;
+  align-content: center;
+}
+.whatIdo-div1 {
+  display: flex;
+  flex-direction: column;
+}
+.whatIdo-div1-top {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  /* display: inline-block; */
+  vertical-align: top;
+  /* width: 49%; */
+  height: 100%;
+  padding: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.whatIdo-midline {
+  display: block;
+  margin: 30px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+.top-header {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  align-items: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  /* margin: 0 0 30px; */
+  font-size: 20px;
+}
+
+.fa,
+.fa-solid {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 15px;
+  vertical-align: middle;
+  /* color: #f2f2f2; */
+}
+.top-body {
+  line-height: 1.5em;
+  font-weight: 100;
+  color: #fff;
+  font-size: 1em;
+  margin-bottom: 20px;
+  white-space: initial;
+  /* margin: 0; */
+  font-family: Whitney, Helvetica, Arial, sans-serif;
+}
+.skills {
+  overflow: hidden;
+  height: 80vh;
+  /* width: 100%; */
+  padding: 100px;
+  background-color: #1b1b1b;
+}
+
+.skills-left {
+  display: flex;
+  flex-direction: column;
+}
+.skill-right-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.skills-right {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.skills-dev-item {
+  display: inline-block;
+  border: 2px solid rgba(57, 57, 57, 0.5);
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px 10px 10px 0;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  line-height: 7;
+  font-size: 14px;
+  color: #fff;
+}
+.tools-wrapper {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.list {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 0;
+  list-style: none;
+}
+.list-item {
+  margin: 10px 0;
+  font-size: 16px;
+}
+.design-wrapper {
+}
+.design-item {
+  display: inline-block;
+  margin: 10px;
+}
+.design-img {
+  height: 40px;
+  filter: grayscale(100%);
+}
+.experience-header {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.experience {
+  background-image: url("/src/assessts/images/experiencebg.jpg");
+  background-color: #1b1b1b;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.experince-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+}
+.experience-descrption {
+  padding: 0 100px;
+  font-size: 1.2em;
+  align-content: justify;
+  text-align: center;
+  line-height: 1.5em;
+}
+p {
+  margin: 0;
+  align-items: center;
+
+  margin-bottom: 10px;
+  font-family: Whitney, Helvetica, Arial, sans-serif;
+}
+.experienceGrid {
+  padding: 30px;
+  justify-content: center;
+  width: 100%;
+}
+.experience-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin: 0 auto;
+  width: 100%;
+  /* max-width: 1170px; */
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.xp-timeline-block {
+  position: relative;
+  transition: all 0.3s ease;
+  margin: 1em 0;
+  /* border: 1px solid blue; */
+}
+.xp-timeline-block:nth-child(odd) {
+  display: flex;
+  /* position: relative; */
+  /* flex-direction: row-reverse; */
+  /* border: 1px solid red; */
+
+  /* float: left; */
+}
+
+.xp-content {
+  /* float: right; */
+  flex-direction: row;
+  /* justify-content: flex-start; */
+
+  position: relative;
+  background: #1b1b1b;
+  border-radius: 3px;
+  margin-left: 0;
+  padding: 1.5em;
+  width: 45%;
+  opacity: 0.85;
+  transition: all 0.3s ease;
+}
+.jobrole {
+  /* color: #f2f2f2; */
+  margin: 5px 0 10px;
+  font-size: 18px;
+  /* display: inline-block; */
+  text-transform: uppercase;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+}
+.organizationName {
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+a {
+  color: #00b7c7;
+  display: inline;
+  transition: all 0.3s ease;
+}
+.jobdesc {
+  margin: 1em 0;
+  font-size: 1em;
+  line-height: 1.5;
+}
+.timeline-img {
+  position: absolute;
+  /* justify-content: flex-start; */
+  /* border: 1px solid red; */
+
+  width: 50px;
+  height: 50px;
+  top: 15px;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 50%;
+  background: #212121;
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: all 0.3s ease;
+}
+.university {
+  /* background-image: url("/src/assessts/icons/graduate-cap.png"); */
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.time {
+  font-size: 1em;
+  font-weight: 500;
+  display: inline-block;
+  color: #f2f2f2;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  left: 55%;
+  top: 30px;
+}
+a {
+  text-align: center;
+  text-decoration: none;
+}
+.resume {
+  color: #fff;
+  width: 100%;
+  height: 10vh;
+  min-height: 100px;
+  background: #00909c;
+  display: flex;
+  justify-content: center;
+  /* align-items: center;
+  align-self: center; */
+  overflow: hidden;
+  color: #f2f2f2;
+  position: relative;
+  font-weight: 500;
+  font-size: 1em;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 1px;
+  overflow: hidden;
+  /* transition: background-color 0.5s linear; */
+}
+
+.resume:hover {
+  transition: all ease;
+  transform: scale(1.1);
+}
+.som {
+  width: 100vw;
+  height: 100vh;
+  padding: 100px;
+  overflow: hidden;
+  position: relative;
+  background-color: #1b1b1b;
+  padding-bottom: 50px;
+  overflow-y: scroll;
+}
+.som-container {
+  margin: 0;
+  padding-top: 50px;
+  display: block;
+  /* border: 1px solid red; */
+}
+.screenshots {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 95%;
+  margin-left: 10px;
+  /* border: 1px solid blue; */
+}
+.img-lg {
+  width: 65%;
+  left: 0;
+  z-index: 1;
+}
+.img-md {
+  width: 27%;
+  right: 14%;
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  border-radius: 2px;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 75%);
+}
+.img-sm {
+  width: 20%;
+  right: 20%;
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  border-radius: 2px;
+  box-shadow: 0 5px 10px 0 rgba(94, 92, 92, 0.75);
+}
+/* .img-sm {
+  width: 15%;
+  right: 1rem;
+  z-index: 2;
+  box-shadow: 0 5px 5px 0 rgb(0 0 0 / 75%);
+
+  position: absolute;
+  bottom: 0;
+} */
+
+.som-desc {
+  display: flex;
+  flex-direction: column;
+}
+.som-desc-header {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  margin: 1em;
+}
+.som-title {
+  flex: 1;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.som-btn a {
+  margin: 0 auto;
+  padding: 10px 15px;
+  border: 2px solid #00b7c7;
+  border-radius: 3px;
+  color: #00b7c7;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.som-desc-text {
+  display: block;
+  width: 90%;
+  margin-top: 15px;
+  margin-left: 1rem;
+  margin-bottom: 25px;
+  font-size: 1.1em;
+  color: #cbcbcb;
+}
+.stacks-used {
+  display: block;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.stacks-list {
+  margin-left: 1rem;
+}
+.stack-item {
+  display: inline-block;
+  padding: 7px 7px 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  color: #777;
+  background: #333;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
