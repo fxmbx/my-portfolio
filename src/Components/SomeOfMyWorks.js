@@ -38,7 +38,7 @@ function SomeOfMyWorks() {
                                 </div>
                             </div>
                             <div className='som-desc-text'>
-                                Mooncake is a project created to fine mainly to play around with ccs gradient .
+                                Mooncake is a project created to fine tune my frontend skills. built this maily to play around with ccs gradient .
                             </div>
                             <div className='stacks-used'>
                                 <ul className='stacks-list'>

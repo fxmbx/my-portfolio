@@ -20,7 +20,7 @@ function WhatIDo() {
                                 <p>Web Develepment</p>
                             </div>
                             <div className='top-body'>
-                                Using HTML, CSS, and JavaScript with pre-processors and build tools such as Sass and Grunt, I have a passion for developing pixel-perfect websites and apps while maintaining a semantic, modular, and DRY code base.
+                                Using HTML, CSS, and JavaScript with pre-processors and build tools such as bootstrap and Material UI, I develop  websites and apps while maintaining a semantic, modular, and DRY code base.
                             </div>
                         </div>
                         <span className='whatIdo-midline'></span>
@@ -43,10 +43,10 @@ function WhatIDo() {
                         <div className='whatIdo-div1-top' style={{ padding: '20px' }}>
                             <div className='top-header'>
                                 <span className='fa fa-solid fa-circle-dashed'></span>
-                                <p>Wev Develep</p>
+                                <p>API</p>
                             </div>
                             <div className='top-body'>
-                                Using HTML, CSS, and JavaScript with pre-processors and build tools such as Sass and Grunt, I have a passion for developing pixel-perfect websites and apps while maintaining a semantic, modular, and DRY code base.
+                                Using C# and Javascript I develop fast, reliable, efficient and scalable  backend apis
                             </div>
                         </div>
                         <span className='whatIdo-midline'></span>
@@ -61,7 +61,7 @@ function WhatIDo() {
 
                             </div>
                             <div className='top-body'>
-                                There have been far too many times where I've been trying to accomplish a simple task on a website, and ended up wanting to throw my computer out the window in frustration. Needless to say, user experience is an aspect of software I believe is vital to a successful product.
+                                I try to be as inclined in tech as much as I can. Apart from developing web aplications, I dabble a little into PenTesting, Networking, Mobile Development, Photo editing using Photoshop, etc.
                             </div>
                         </div>
                     </div>

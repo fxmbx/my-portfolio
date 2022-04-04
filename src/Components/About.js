@@ -2,6 +2,7 @@ import { Grid } from '@material-ui/core'
 import React from 'react'
 import './style.css'
 // import bgimage from '../assessts/images'
+import headshot from '../assessts/images/steven.jpeg'
 function About() {
     return (
         <section className='about'  >
@@ -14,21 +15,21 @@ function About() {
                     </span></div>
                     <span className='about-midline'></span>
                     <div className='about-content'>
-                        I'm a fourth year student at Babcock University in Boston studying computer science and interaction design. I have experience developing and designing software for the web, from simple landing pages to progressive web applications. I strive to create software that not only functions efficiently under the hood, but also provides intuitive, pixel-perfect user experiences.
+                        I'm a fourth year student at Babcock University in Boston studying computer science  I have experience developing and designing RESTFULT Apis for web. From simple landing pages to progressive web applications. I strive to create software that functions efficiently
                         <br></br>
                         <br></br>
 
-                        I love learning new and better ways to create seamless user experiences with clean, efficient, and scalable code. I consider work an ongoing education, and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn. At the end of the day, my primary goal is to create something beautiful with people that bring out the best in me.
+                        I love learning new technologies and better ways to create s clean, efficient, and scalable code. I consider work an ongoing education, and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn. At the end of the day, my primary goal is to create something beautiful with people that bring out the best in me.
                         <br></br>
                         <br></br>
 
-                        When I'm not in front of a computer screen, I'm probably snowboarding, traveling, petting dogs, or learning a new song on my uke.
+                        When I'm not in front of a computer screen, I'm probably looking for a way to get infront of the computer screen. I watch anime, read codes and listen to music with my free time
                     </div>
                 </Grid>
                 <Grid item xs={12} md={3} className='about-right'>
-                    <div className='about-headshot'>
+                    <div className='about-headshot' >
                         {/* <img src="../assessts/images/home-bg.jpg" style={{ borderRadius: '50%', backgroundColor: '#fff' }} /> */}
-                        <div style={{ borderRadius: '50%', backgroundColor: '#fff', height: '70%', width: '100%' }}></div>
+                        <div style={{ borderRadius: '50%', backgroundImage: `url(${bgimage})`, height: '70%', width: '100%' }}></div>
                     </div>
                 </Grid>
                 <Grid item xs={12} md={1}></Grid>

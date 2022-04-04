@@ -13,7 +13,7 @@ function Home() {
                     <p className='home-subheading'>Backend Developer</p>
                 </div>
 
-                <div class="scroll-down-wrapper">
+                {/* <div class="scroll-down-wrapper">
 
                     <a href='' className='scroll-down'>
                         <img class="logo" src="" alt="scroll down" />
@@ -23,7 +23,7 @@ function Home() {
                             </svg>
                         </span>
                     </a>
-                </div>
+                </div> */}
 
             </Grid>
 
