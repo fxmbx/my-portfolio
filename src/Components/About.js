@@ -11,7 +11,7 @@ function About() {
                 <Grid item xs={12} md={7} className='about-left'>
                     <div className='about-header'>Hey, I'm Funmibi 👋.</div>
                     <div className='about-subheader'> <span>
-                        I'm a design-minded, detail oriented software engineer passionate about combining beautiful code with beautiful design. headshot
+                        I'm a design-minded, detail oriented software engineer passionate about writing beautiful code to solve perplexing problems.
                     </span></div>
                     <span className='about-midline'></span>
                     <div className='about-content'>

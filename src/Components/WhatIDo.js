@@ -17,7 +17,7 @@ function WhatIDo() {
                                 <span className='fa fa-solid fa-code'>
 
                                 </span>
-                                <p>Web Develepment</p>
+                                <p style={{ marginBottom: '0px' }}> Web Develepment</p>
                             </div>
                             <div className='top-body'>
                                 Using HTML, CSS, and JavaScript with pre-processors and build tools such as bootstrap and Material UI, I develop  websites and apps while maintaining a semantic, modular, and DRY code base.
@@ -28,7 +28,7 @@ function WhatIDo() {
                         <div className='whatIdo-div1-bottom' style={{ padding: '20px' }}>
                             <div className='top-header'>
                                 <span className='fa fa-solid fa-code'></span>
-                                <p>EXPERIENCE DESIGN </p>
+                                <p style={{ marginBottom: '0px' }}>EXPERIENCE DESIGN </p>
 
 
                             </div>
@@ -42,11 +42,11 @@ function WhatIDo() {
                     <div className='whatIdo-div1'>
                         <div className='whatIdo-div1-top' style={{ padding: '20px' }}>
                             <div className='top-header'>
-                                <span className='fa fa-solid fa-circle-dashed'></span>
-                                <p>API</p>
+                                <span className='fa far fa-torii-gate'></span>
+                                <p style={{ marginBottom: '0px' }}>API</p>
                             </div>
                             <div className='top-body'>
-                                Using C# and Javascript I develop fast, reliable, efficient and scalable  backend apis
+                                Using C# and Javascript I develop fast, reliable, efficient and scalable  backend apis. I believe apis are the backbone of any project making it important to follow best practice.
                             </div>
                         </div>
                         <span className='whatIdo-midline'></span>
@@ -56,7 +56,7 @@ function WhatIDo() {
                                 <span className='fa fa-light fa-globe'>
 
                                 </span>
-                                <p> Diversity in tech</p>
+                                <p style={{ marginBottom: '0px' }}> Diversity in tech</p>
 
 
                             </div>
