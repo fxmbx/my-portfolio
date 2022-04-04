@@ -3,6 +3,8 @@ import React from 'react'
 import ExperienceBlock from './ExperienceBlock'
 import Rusume from './Rusume';
 import bgimage from '../assessts/images/experiencebg.jpg'
+import xpimage1 from '../assessts/images/zeplin.png'
+import xpimage2 from '../assessts/images/graduate-cap.png'
 
 
 function Experience() {
@@ -42,7 +44,9 @@ function Experience() {
 
 
                                 <div className='timeline-img'>
-                                    <div className='university'></div>
+                                    <div className='university' style={{ backgroundImage: `url(${xpimage2})` }}>
+
+                                    </div>
                                 </div>
                                 <div className='time'> 2017 - Present</div>
 
@@ -56,7 +60,9 @@ function Experience() {
                                     description=' I Assisted the faculty in introducing programming to new students. I facilitated the learning of student and helped prepare them for exams. All 10 student I was in charge of passed thier intro C# certification exams.'
                                 />
                                 <div className='timeline-img'>
-                                    <div className='university'></div>
+                                    <div className='university' style={{ backgroundImage: `url(${xpimage1})` }}>
+
+                                    </div>
                                 </div>
                                 <span className='time'>June 2018- October 2018</span>
 
@@ -71,7 +77,9 @@ function Experience() {
                                     note='(worked remotely)'
                                 />
                                 <div className='timeline-img'>
-                                    <div className='university'></div>
+                                    <div className='university' style={{ backgroundImage: `url(${xpimage2})` }}>
+
+                                    </div>
                                 </div>
 
                                 <p className='time'>
@@ -88,7 +96,9 @@ function Experience() {
 
                                 />
                                 <div className='timeline-img'>
-                                    <div className='university'></div>
+                                    <div className='university' style={{ backgroundImage: `url(${bgimage})` }}>
+
+                                    </div>
                                 </div>
                                 <div className='time'>January 2021- June 2021</div>
 
@@ -103,7 +113,9 @@ function Experience() {
 
                                 />
                                 <div className='timeline-img'>
-                                    <div className='university'></div>
+                                    <div className='university' style={{ backgroundImage: `url(${bgimage})` }}>
+
+                                    </div>
                                 </div>
                                 <div className='time'>January 2021- March 2021</div>
 
@@ -118,7 +130,9 @@ function Experience() {
 
                                 />
                                 <div className='timeline-img'>
-                                    <div className='university'></div>
+                                    <div className='university' style={{ backgroundImage: `url(${bgimage})` }}>
+
+                                    </div>
                                 </div>
                                 <span className='time'>{formatDate(new Date())} -</span>
 

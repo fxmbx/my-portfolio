@@ -15,7 +15,7 @@ function About() {
                     </span></div>
                     <span className='about-midline'></span>
                     <div className='about-content'>
-                        I'm a fourth year student at Babcock University in Boston studying computer science  I have experience developing and designing RESTFULT Apis for web. From simple landing pages to progressive web applications. I strive to create software that functions efficiently
+                        I'm a fourth year student at Babcock University Ilishan Remo Nigeria studying computer science  I have experience developing and designing RESTFULT Apis for web. From simple landing pages to progressive web applications. I strive to create software that functions efficiently
                         <br></br>
                         <br></br>
 
