@@ -121,19 +121,19 @@ function Skills() {
                                 </div>
                                 <ul>
                                     <li className='design-item'>
-                                        <img className='design-img' src='../assessts/images/home-bg.jpg' />
+                                        {/* <img className='design-img' src='../assessts/images/home-bg.jpg' /> */}
                                     </li>
                                     <li className='design-item'>
                                         <img className='design-img' src='../assessts/images/home-bg.jpg' />
                                     </li>
                                     <li className='design-item'>
-                                        <img className='design-img' src='../assessts/images/home-bg.jpg' />
+                                        {/* <img className='design-img' src='../assessts/images/home-bg.jpg' /> */}
                                     </li>
                                     <li className='design-item'>
-                                        <img className='design-img' src='../assessts/images/home-bg.jpg' />
+                                        {/* <img className='design-img' src='../assessts/images/home-bg.jpg' /> */}
                                     </li>
                                     <li className='design-item'>
-                                        <img className='design-img' src='../assessts/images/home-bg.jpg' />
+                                        {/* <img className='design-img' src='../assessts/images/home-bg.jpg' /> */}
                                     </li>
                                 </ul>
 
