@@ -114,7 +114,7 @@ function Experience() {
                                     company='🤵‍♀️'
                                     url='ifeoluwa.agboola@gmail.com'
                                     description='Create revolutionary software solutions'
-                                    note='(worked remotely)'
+                                    note='(work remotely)'
 
                                 />
                                 <div className='timeline-img'>
