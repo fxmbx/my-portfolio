@@ -5,6 +5,7 @@ import Rusume from './Rusume';
 import bgimage from '../assessts/images/experiencebg.jpg'
 import xpimage1 from '../assessts/images/zeplin.png'
 import xpimage2 from '../assessts/images/graduate-cap.png'
+import xpimage3 from '../assessts/images/laptop.png'
 
 
 function Experience() {
@@ -96,7 +97,7 @@ function Experience() {
 
                                 />
                                 <div className='timeline-img'>
-                                    <div className='university' style={{ backgroundImage: `url(${bgimage})` }}>
+                                    <div className='university' style={{ backgroundImage: `url(${xpimage3})` }}>
 
                                     </div>
                                 </div>
@@ -113,7 +114,7 @@ function Experience() {
 
                                 />
                                 <div className='timeline-img'>
-                                    <div className='university' style={{ backgroundImage: `url(${bgimage})` }}>
+                                    <div className='university' style={{ backgroundImage: `url(${xpimage3})` }}>
 
                                     </div>
                                 </div>
@@ -130,7 +131,7 @@ function Experience() {
 
                                 />
                                 <div className='timeline-img'>
-                                    <div className='university' style={{ backgroundImage: `url(${bgimage})` }}>
+                                    <div className='university' style={{ backgroundImage: `url(${xpimage3})` }}>
 
                                     </div>
                                 </div>
