@@ -247,7 +247,7 @@ ul {
   background-image: url("/src/assessts/images/experiencebg.jpg");
   background-color: #1b1b1b;
   color: #fff;
-  height: 100vh;
+  height: auto;
   /* width: 100vw; */
   scroll-behavior: smooth;
   overflow: scroll;
@@ -299,8 +299,8 @@ p {
 }
 .xp-timeline-block:nth-child(odd) {
   display: flex;
-  /* position: relative; */
-  /* flex-direction: row-reverse; */
+  /* position: relative;
+  flex-direction: row-reverse; */
   /* border: 1px solid red; */
 
   /* float: left; */
@@ -418,7 +418,7 @@ a {
 }
 .som {
   /* width: 100vw; */
-  height: 100vh;
+  height: auto;
   padding: 100px;
   overflow: hidden;
   position: relative;

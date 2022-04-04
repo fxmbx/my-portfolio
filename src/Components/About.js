@@ -29,7 +29,7 @@ function About() {
                 <Grid item xs={12} md={3} className='about-right'>
                     <div className='about-headshot' >
                         {/* <img src="../assessts/images/home-bg.jpg" style={{ borderRadius: '50%', backgroundColor: '#fff' }} /> */}
-                        <div style={{ borderRadius: '50%', backgroundImage: `url(${bgimage})`, height: '70%', width: '100%' }}></div>
+                        <div style={{ borderRadius: '50%', backgroundImage: `url(${headshot})`, height: '70%', width: '100%' }}></div>
                     </div>
                 </Grid>
                 <Grid item xs={12} md={1}></Grid>
