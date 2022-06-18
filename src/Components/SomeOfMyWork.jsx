@@ -60,7 +60,7 @@ const ScreenshotAbout = (props) => {
 };
 function SomeOfMyWork() {
   return (
-    <div className="font-hattori font-lg h-full w-full  bg-background-four text-white">
+    <div className="font-hattori font-lg h-full w-full  bg-background-one text-white">
       <div className="p-8 md:wrap">
         <h1 className="self-center  text-3xl md:text-5xl font-Rokkitt  pb-8 ">
           Somethings i've done 😁.
