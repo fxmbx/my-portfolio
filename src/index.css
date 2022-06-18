@@ -13,9 +13,10 @@
     @apply py-16 px-24;
   }
   .skills {
-    @apply border border-[#393939] rounded-full w-[100px] h-[100px] font-thin text-center  flex justify-center  items-center;
+    @apply border border-white rounded-full w-[100px] h-[100px] font-thin text-center  flex justify-center  items-center;
   }
   .stack-item {
     @apply inline-block p-2 mr-[5px] mb-[10px] bg-[#333] text-[#777] uppercase text-xs font-[500];
   }
 }
+/* [#393939] */

@@ -45,11 +45,11 @@ function Experience() {
   return (
     <div>
       <div
-        className="p-8 md:wrap w-full h-full text-white"
-        style={{
-          backgroundImage: `url(${bgimage})`,
-          backgroundSize: "100% 100%",
-        }}
+        className="p-8 md:wrap w-full h-full bg-background-three text-white"
+        // style={{
+        //   backgroundImage: `url(${bgimage})`,
+        //   backgroundSize: "100% 100%",
+        // }}
       >
         <h1 className="self-center  text-4xl md:text-7xl font-Rokkitt pb-8 ">
           Some places I've worked 🥱
@@ -69,7 +69,7 @@ function Experience() {
               company="School of Comuting and Engineering Science"
               url="https://www.babcock.edu.ng/school/"
               description="Candidate of Bachelor of science in Computer Science with a focus in software development"
-              note="Graduting 2022"
+              note="Graduating 2022"
             />
             <div className="flex gap-6 items-center m-4">
               <div className="relative">
@@ -135,7 +135,7 @@ function Experience() {
               jobrole="intern (trainee)"
               company="NIIT"
               url="https://www.dipolediamond.com/"
-              description="Worked as an intern on a project to provide solutions to a clien"
+              description="Worked as an intern on a project to provide solutions to a client"
               note="(worked remotely)"
             />
             <div className="flex gap-6 items-center m-4">

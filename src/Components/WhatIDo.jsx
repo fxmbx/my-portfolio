@@ -34,7 +34,7 @@ const Card = ({ icon, text, title, iconcolor }) => {
 function WhatIDo() {
   return (
     <div
-      className="font-Poppins border-t-2 font-ld  p-16 h-full w-full bg-background-two "
+      className="font-Poppins border-t-2 font-ld  p-16 h-full w-full bg-background-three "
       // style={{ backgroundImage: `url(${bgimage})` }}
     >
       <h1 className="self-center  text-5xl md:text-7xl  pb-8 font-Rokkitt">

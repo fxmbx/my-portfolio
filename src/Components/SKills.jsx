@@ -7,7 +7,7 @@ import {
 } from "@heroicons/react/outline";
 function SKills() {
   return (
-    <div className=" font-hattori w-full h-full bg-background-one text-white">
+    <div className=" font-hattori w-full h-full bg-background-four text-white">
       <div className="p-8 md:wrap">
         <h1 className="self-center  text-5xl md:text-7xl  pb-8  font-Rokkitt">
           Skills

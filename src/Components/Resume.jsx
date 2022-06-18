@@ -5,7 +5,7 @@ import ResumeF from "../assets/Resume/Olaore_Oluwafunmibi_Olumuyiwa_Resume_14-06
 
 function Resume() {
   return (
-    <div className="bg-portfolio-blue w-full h-[100px] justify-center hover:scale-105 ease-in-out ">
+    <div className="bg-cyan-900 w-full h-[100px] justify-center hover:scale-105 ease-in-out ">
       <a
         className=" w-full h-full flex items-center justify-center"
         rel="noreferrer noreferrer"

@@ -60,7 +60,7 @@ const ScreenshotAbout = (props) => {
 };
 function SomeOfMyWork() {
   return (
-    <div className="font-hattori font-lg h-full w-full  bg-background-one text-white">
+    <div className="font-hattori font-lg h-full w-full  bg-background-four text-white">
       <div className="p-8 md:wrap">
         <h1 className="self-center  text-3xl md:text-5xl font-Rokkitt  pb-8 ">
           Somethings i've done 😁.
@@ -118,7 +118,7 @@ function SomeOfMyWork() {
               title=".net rpg"
               url="https://github.com/fxmbx/dotnet-RPG"
               code="code"
-              text=" This is an RPG API that allows user register and create character, where each character can only have one weapon but many skils and eash weapon has some attack move attached to it. The api allows user request battle royale fight, select particular attack be it weapon or skill attack, see highscore, number of wins and losses, etc."
+              text=" This is an RPG API that allows user register and create character, where each character can only have one weapon but many skills and each weapon has some attack moves attached to it. The api allows user request battle royale fight, select particular attack be it weapon or skill attack, see highscore, number of wins and losses, etc."
             />
             <ul className="gap-6 mb-8">
               <li className="stack-item">.Net Core Web APi</li>
